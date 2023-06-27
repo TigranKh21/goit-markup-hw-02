@@ -86,7 +86,7 @@ body {
   letter-spacing: -0.04rem;
 }
 
-.h3-subtitle {
+.section-subtitle {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
@@ -147,7 +147,7 @@ body {
   letter-spacing: -0.04em;
 }
 
-.h2-title {
+.section-title {
   color: var(--navyblue);
   text-align: center;
   /* Header 2 */
