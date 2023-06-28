@@ -66,6 +66,8 @@ address .link:focus {
 }
 
 .button {
+  color: var(--iris);
+  background-color: var(--cloud);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
@@ -75,6 +77,8 @@ address .link:focus {
 
 .button:hover,
 .button:focus {
+  color: #FFF;
+  background-color: #404BBF;
   font-family: Roboto, sans-serif; 
   font-weight: 500;
   line-height: 1.5;
