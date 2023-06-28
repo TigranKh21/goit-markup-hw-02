@@ -9,7 +9,7 @@
 }
 
 body {
-  color: var(--navyblue);
+  color: #434455;
   background-color: #fff;
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -24,13 +24,19 @@ body {
 }
 
 .list-link {
+  color: var(--navyblue);
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.02rem;
+  letter-spacing: 0.02rem;
+}
+
+.list-link:hover,
+.list-link:focus {
+  color: #404bbf;
 }
 
 address .link:hover,
-address .link:active {
+address .link:focus {
   color:#404bbf;
 }
 
@@ -39,8 +45,8 @@ address .link:active {
   font-size: 18px;
   font-family: Raleway, sans-serif;
   font-weight: 800;
-  line-height: 1.66;
-  letter-spacing: -0.02em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -56,41 +62,28 @@ address .link:active {
   font-style: normal;
   color: var(--slate);
   line-height: 1.5;
-  letter-spacing: -0.02rem;
+  letter-spacing: 0.02em;
 }
 
 .button {
-  border-radius: 4px;
-  border: 1px solid var(--cornflower);
-  background: var(--cloud);
-  color: var(--iris);
-  text-align: center;
-  /* Button Text */
   font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.04rem;
+  letter-spacing: 0.04rem;
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  border-radius: 4px;
-  background: var(--ocean);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  color: var(--white);
-  text-align: center;
-  /* Button Text */ 
   font-family: Roboto, sans-serif; 
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.04rem;
+  letter-spacing: 0.04rem;
   cursor: pointer;
 }
 
 .paragraph-text {
   color: var(--slate);
-  /* Body */
   line-height: 1.5;
   letter-spacing: 0.02rem;
 }
@@ -101,7 +94,7 @@ address .link:active {
 .footer-text {
   color: var(--cloud);
   line-height: 1.5;
-  letter-spacing: -0.02rem;
+  letter-spacing: 0.02rem;
 }
 
 .visually-hidden {
@@ -120,30 +113,29 @@ address .link:active {
 .solutions {
   background-color: var(--navyblue);
   color: var(--white, #FFF);
-  text-align: center;
   /* Header 1 */
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
 }
 
 .order-button {
-  border-radius: 4px;
+  color: #fff;
   background: var(--iris);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  color: var(--white, #FFF);
-  /* Button Text */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.02em;
   cursor: pointer;
 }
 
+.order-button:hover,
+.order-button:focus {
+  background-color: #404BBF;
+}
+
 .section-title {
-  text-align: center;
-  /* Header 2 */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -156,8 +148,12 @@ address .link:active {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.02em;
 }
 .our-team {
   background-color: var(--cloud);
+}
+
+.team-member {
+  background-color: #fff;
 }
