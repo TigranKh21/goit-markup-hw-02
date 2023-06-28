@@ -35,8 +35,18 @@ body {
   color: #404bbf;
 }
 
-address .link:hover,
-address .link:focus {
+.address {
+  font-style: normal;
+}
+
+.address-list-item {
+  color: var(--slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address .link:hover,
+.address .link:focus {
   color:#404bbf;
 }
 
@@ -56,13 +66,6 @@ address .link:focus {
 
 .logo-accent-light {
   color: var(--cloud);
-}
-
-.address-list-item {
-  font-style: normal;
-  color: var(--slate);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 .button {
@@ -102,7 +105,7 @@ address .link:focus {
 }
 
 .visually-hidden {
-  position: absolute;
+/*  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -110,18 +113,20 @@ address .link:focus {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);*/
   overflow: hidden;
 }
 
 .solutions {
-  background-color: var(--navyblue);
   color: var(--white, #FFF);
-  /* Header 1 */
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+}
+
+.solutions-title {
+  background-color: var(--navyblue);
 }
 
 .order-button {
@@ -130,7 +135,7 @@ address .link:focus {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -140,11 +145,13 @@ address .link:focus {
 }
 
 .section-title {
+  color: var(--navyblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .section-subtitle {
