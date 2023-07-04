@@ -17,7 +17,7 @@ body {
 
 .list {
   list-style-type: none;
-} 
+}
 
 .link {
   text-decoration: none;
@@ -35,6 +35,15 @@ body {
   color: #404bbf;
 }
 
+.conteiner-logo {
+  display: flex;
+  padding-left: 156px;
+  padding-right: 156px;
+  justify-content: space-between;
+}
+.conteiner-nav {
+  display: flex;
+}
 .address {
   font-style: normal;
 }
@@ -47,7 +56,7 @@ body {
 
 .address .link:hover,
 .address .link:focus {
-  color:#404bbf;
+  color: #404bbf;
 }
 
 .logo {
@@ -80,9 +89,9 @@ body {
 
 .button:hover,
 .button:focus {
-  color: #FFF;
-  background-color: #404BBF;
-  font-family: Roboto, sans-serif; 
+  color: #fff;
+  background-color: #404bbf;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04rem;
@@ -110,15 +119,19 @@ body {
 
 .solutions {
   background-color: var(--navyblue);
+  display: flex;
+  flex-direction: column;
 }
 
 .solutions-title {
-  color: var(--white, #FFF);
+  color: var(--white, #fff);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 496px;
+  padding: 0 auto;
 }
 
 .order-button {
@@ -133,7 +146,7 @@ body {
 
 .order-button:hover,
 .order-button:focus {
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .section-title {
